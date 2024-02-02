@@ -23,20 +23,22 @@
  }
  *{
     scroll-behavior: smooth;
+    
  }
 </style>
 
-<body class="flex flex-col overflow-x-hidden ">
+<body class="flex flex-col overflow-x-hidden">
 
 <!-- -----------------NAVBAR STARTS------------- -->
- <div id="nav" class="flex flex-row items-center justify-evenly gap-[7rem] bg-[#007bff] w-[100%] h-[3rem] fixed z-50 ">
+ <div id="nav" class="flex flex-row items-center justify-center gap-[7rem] bg-[#007bff] w-[100%] h-[3rem] fixed z-50 ">
         <div id="logo" class="font-[poppins] text-[#191919] text-2xl">Money<span class="text-[#fff]">Zee</span></div>
 
 
     <i class="fa-solid fa-bars-staggered text-[#fff] text-3xl relative z-[50] " id="ham" onclick="show()"></i>
     <i class="fa-solid fa-xmark text-[#fff] text-3xl relative z-[50]  hidden" id="cross" onclick="hide()"></i>
 
-<div id="ham-items" class="flex flex-col items-center justify-center gap-[5rem] fixed top-[5rem] bottom-[0] bg-[#007bff] h-[80vh] w-[90vw] overflow-y-hidden text-2xl translate-y-[-500%] duration-[0.5s] mx-auto rounded-[1.2em]">
+
+    <div id="ham-items" class="flex flex-col items-center justify-center gap-[5rem] fixed top-[5rem] bottom-[0] bg-[#007bff] h-[80vh] w-[90vw] overflow-y-hidden text-2xl translate-y-[-500%] duration-[0.5s] mx-auto rounded-[1.2em]">
         <h4 id="ham-h" class="text-center text-[#fff] font-[poppins] font-[600] cursor-pointer hover:underline">Home</h4>
         <h4 id="ham-h" class="text-center text-[#fff] font-[poppins] font-[600] cursor-pointer hover:underline">Services</h4>
         <h4 id="ham-h" class="text-center text-[#fff] font-[poppins] font-[600] cursor-pointer hover:underline">Contact Us</h4>
@@ -44,19 +46,13 @@
      
 
 </div>
-  
-
-   
-
-
-
 </div>
 <!-- -----------------NAVBAR ENDS-------------     -->
 
 
 
     <!-- ----------------PAGE 1 STARTS------------ -->
-    <div id="page1" class="flex lg:flex-row lg:gap-[0rem] mobile: flex-col-reverse mobile: gap-[2rem] items-center justify-center bg-[#fff] px-[3rem] lg: pt-[3rem] mobile: pt-[5rem]">
+    <div id="page1" class="flex lg:flex-row lg:gap-[0rem] mobile: flex-col-reverse mobile: gap-[2rem] items-center justify-center bg-[#fff] px-[3rem] lg: pt-[3rem] mobile: pt-[5rem] overflow-x-hidden ">
         <div id="page1-img" class="basis-[45%] shadow-2xl rounded-lg">
             <img src="pg1img.png" alt="" >
         </div>
